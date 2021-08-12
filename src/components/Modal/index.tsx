@@ -60,8 +60,7 @@ export const useModal = () => {
             </FormControl>
           </Body>
           <Footer>
-            <Button
-              active={true}
+            <Button 
               onClick={() => updatePomodoro()}
               variant="primary"
               label="OK"

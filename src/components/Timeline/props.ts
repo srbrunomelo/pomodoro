@@ -1,6 +1,6 @@
 export interface ITimeline {
-  time: number
-  active: boolean
+  time: number 
+  duration: number 
 }
 
 export interface IProgress {

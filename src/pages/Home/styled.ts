@@ -12,10 +12,16 @@ export const Wrapper = styled.div`
   flex-direction: column; 
 `;
 
-export const Settings = styled.span`
+export const Settings = styled.button`
   display: flex;
   color: #fff;
   cursor: pointer;
   font-size: 14px;
   margin-bottom: 20px;
+  background: none;
+  border: none; 
+
+  &:disabled {
+    color: rgba(255,255,255, 0.1); 
+  }
 `;

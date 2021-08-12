@@ -12,12 +12,14 @@ export const Navigation = () => {
   return (
     <Wrapper>
       <NavigationItem 
+        disabled={settings.active}
         onClick={() => setStatus('work')}
         active={ settings.status === 'work' ? true : false }
       >
         Pomodoro
       </NavigationItem>
       <NavigationItem 
+        disabled={settings.active}
         onClick={() => setStatus('short')}
         active={ settings.status === 'short' ? true : false }
       >

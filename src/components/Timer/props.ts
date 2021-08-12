@@ -1,3 +1,3 @@
 export interface ITimer {
-  mainTime: number;
+  time: number;
 }

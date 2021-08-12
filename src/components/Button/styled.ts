@@ -2,12 +2,11 @@ import styled, { css } from "styled-components";
 import { IButton } from "./props";
 
 const modifiers = {
-  active: () => css`
-    box-shadow: rgb(235 235 235) 0px 6px 0px;
+  active: () => css` 
+    opacity: 0.5;
   `,
 
-  default: () => css`
-    background-color: white;
+  default: () => css` 
     color: ${(props) => props.theme.primaryColor};
   `,
 
@@ -28,10 +27,11 @@ export const Wrapper = styled.button<IButton>`
   width: 100%;
   max-width: 90%;
   transition: color 0.5s ease-in-out 0s;
-  box-shadow: rgb(255 255 255) 0px 6px 0px;
-  
-  ${({ active, variant }) => css`
-    ${!active && modifiers.active()}
+  transition: background-color 0.5s ease-in-out 0s;
+  background-color: white;
+   
+  ${({ active, variant }) => css` 
     ${variant === "default" ? modifiers.default() : modifiers.primary()}
+    ${active && modifiers.active()}
   `}
 `;
