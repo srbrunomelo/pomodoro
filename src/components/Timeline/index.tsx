@@ -21,7 +21,7 @@ export const Timeline = ({ time, duration }:ITimeline ) => {
     if (time === duration) {
       setProgress(0) 
     }
-  }, [settings.active])
+  }, [settings.active, time, duration])
   
   return (
     <Wrapper>
