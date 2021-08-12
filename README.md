@@ -1,11 +1,26 @@
-# Pomodoro
+# POMODORO
+A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por
+Francesco Cirillo no final dos anos 1980. A técnica usa um cronômetro para dividir o
+trabalho em intervalos, tradicionalmente de 25 minutos de duração, separados por
+intervalos curtos - 5 minutos.
  
+# Apps de exemplo
+https://pomofocus.io/
+   
+# Instalação
+
+```bash
+# Baixar o repositório
+git clone git@github.com:srbrunomelo/pomodoro.git
+npm install && npm start
+```
  
-## Rodar o projeto
+## Tecnologias
+ReactJs / TypeScript  
 
-No diretório do projeto, você pode executar:
+## Gerenciamento de dados globais
+Context Api
 
-### `npm install && npm start`
-
-Executa o aplicativo no modo de desenvolvimento.\
-Open [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+## Bibliotecas adicionais
+react-use
+styled-components
