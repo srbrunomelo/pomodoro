@@ -14,7 +14,10 @@ https://pomofocus.io/
 git clone git@github.com:srbrunomelo/pomodoro.git
 npm install && npm start
 ```
- 
+
+## Demonstração  
+https://dazzling-goldberg-75e774.netlify.app/
+
 ## Tecnologias
 ReactJs / TypeScript  
 
