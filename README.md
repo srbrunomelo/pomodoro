@@ -16,7 +16,7 @@ npm install && npm start
 ```
 
 ## Demonstração  
-https://dazzling-goldberg-75e774.netlify.app/
+https://pomodoro-teste.netlify.app/
 
 ## Tecnologias
 ReactJs / TypeScript  
