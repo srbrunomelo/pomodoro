@@ -1,3 +1,6 @@
+# ATENÇÃO.
+Este projeto fez parte de um teste que fiz para compor o time da vilaApps
+
 # POMODORO
 A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por
 Francesco Cirillo no final dos anos 1980. A técnica usa um cronômetro para dividir o
