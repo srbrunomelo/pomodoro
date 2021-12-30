@@ -1,5 +1,5 @@
 # ATENÇÃO.
-Este projeto fez parte de um teste que fiz para compor o time da vilaApps
+Este projeto fez parte de um teste que fiz para compor o time da vilaApps, onde atuo como frontend pleno.
 
 # POMODORO
 A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por
